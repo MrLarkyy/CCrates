@@ -1,0 +1,10 @@
+name: CCrates
+version: ${project.version}
+main: cz.larkyy.ccrates.CCrates
+api-version: 1.13
+softdepend:
+  - CMI
+commands:
+  ccrates:
+    aliases: [crates,cr,citycrates,crate,citycrate]
+    description: CCrates

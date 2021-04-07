@@ -1,0 +1,32 @@
+crates:
+  testCrate:
+    type: ROULETTE
+    key:
+      material: NETHER_STAR
+      displayName: "&bRoulette &fKey"
+      lore:
+        - "&7Test crate key"
+    crate:
+      material: BEACON
+      displayName: "&bRoulette &fCrate &7(Place)"
+      lore:
+        - "&7Place to set the crate"
+    hologram:
+      - "&7Klikni pro otevření"
+    rewards:
+      testReward1:
+        material: DIAMOND
+        displayName: "&dTest1"
+        lore:
+          - "&7Test reward 1"
+        chance: 10
+        commands:
+          - "say test reward 1"
+      testReward2:
+        material: EMERALD
+        displayName: "&dTest2"
+        lore:
+          - "&7Test reward 2"
+        chance: 5
+        commands:
+          - "say test reward 2"
